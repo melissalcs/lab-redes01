@@ -55,3 +55,8 @@ Router --> |LAN 4| Printer
 
   
 ```
+
+Imagem da topologia utilizada no laboratório:
+
+<img width="1152" height="648" alt="redelocal" src="https://github.com/user-attachments/assets/f480662f-6f48-4e2f-bdce-476f4fcfbdeb" />
+```
