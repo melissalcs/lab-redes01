@@ -29,3 +29,29 @@ T
 - cabos de rede
 
   ---
+  
+## 3. Topologia da Rede
+Diagrama lógico da rede utilizada nesse laboratório
+
+``` mermaid
+graph TD
+
+WAN[Internet / WAN Provedor]
+
+Router[Roteador Wireless<br>1 Porta WAN<br> 4 portas LAN]
+
+PC1[Notebook 1]
+PC2[Notebook 2]
+PC3[Notebook 3]
+
+Printer[Impressora de Rede]
+
+WAN --> |Portas WAN| Router
+
+Router --> |LAN 1| PC1
+Router --> |LAN 2| PC2
+Router --> |LAN 3| PC3
+Router --> |LAN 4| Printer
+
+  
+```
